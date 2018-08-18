@@ -1,0 +1,56 @@
+footer {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+}
+
+#content {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#content .tag {
+    background-color: lightblue;
+    padding: 5px;
+}
+
+#content .tag ul, li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#content .tag li {
+    float: left;
+    padding: 10px;
+    line-height: 30px;
+}
+
+#content .tag li span {
+    background-color: gold;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px cadetblue;
+}
+
+#content .art ul, li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#content .art li {
+    float: left;
+    padding: 10px;
+}
+
+#content .art li dd {
+    padding: 0 10px;
+}
+
+#content .art li img:hover {
+    box-shadow: 5px 5px 5px lightblue;
+    transform: scale3d(1.01,1.01,1.01);
+    transition: transform ease-in-out 0.5s;
+}
